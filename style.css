@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .color-orange{
     color: orange;
@@ -59,11 +59,15 @@ h3{
 }
 #baby-wap{
     border-radius: 10px;
-    border-left: 10px blue;
+    border-left:  10px solid;
+    border-image: linear-gradient( 180deg, blue,cyan);
+    border-image-slice: 1;
 }
 #full-stack{
     border-radius: 10px;
-    border-left:10px tomato;}
+    border-left:  10px solid;
+    border-image: linear-gradient( 180deg, purple,tomato);
+    border-image-slice: 1;}
 
 footer p{
     text-align: center;
